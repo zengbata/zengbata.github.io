@@ -1,0 +1,44 @@
+a:visited {
+    color: #00B6AE;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+p a:hover {
+    color: blue;
+}
+
+li,
+p {
+    font-size: 18px;
+    text-indent: 2em;
+    line-height: 1.8;
+}
+
+li {
+    text-indent: 0;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+h3 {
+    font-weight: 600;
+    text-indent: 2em;
+    text-decoration: underline;
+    /*background-color: #ccc;*/
+    width: 20%;
+}
+
+body {
+    background-image: url(body_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: #0D3B6C;
+    color: #eee;
+}

@@ -1,0 +1,57 @@
+div {
+    border: 1px #ccc solid;
+    border-radius: 10px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #fff), linear-gradient(70deg, #e0f1ff 32%, #fffae3);
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+div.left {
+    width: 20%;
+    float: left;
+}
+
+div.middle {
+    width: 40%;
+    float: left;
+}
+
+div.middle div {
+    background: #fff;
+}
+
+div.right {
+    width: 20%;
+    float: right;
+}
+
+div.main {
+    width: 95%;
+    height: auto;
+}
+
+
+/*.clear {
+    height: 0;
+    width: 0;
+    display: ;
+    padding: 0;
+    margin: 0;
+    clear: both;
+}*/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+    /*IE/7/6*/
+}

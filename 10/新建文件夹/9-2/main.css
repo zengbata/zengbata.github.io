@@ -1,0 +1,107 @@
+body {
+    background-color: #FFF1E0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/*网页居中容器样式设定*/
+
+#wrap {
+    margin: 0 auto;
+    height: 90px;
+    width: 970px;
+}
+
+
+/*顶部通栏广告样式设定*/
+
+.top-ad {
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+
+/*顶部导航条样式设定*/
+
+#nav {
+    border-bottom: 10px #9E2F50 solid;
+    padding-bottom: 10px;
+}
+
+#nav p {
+    color: #A7A59B;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#nav img {
+    display: block;
+    width: 172px;
+    height: 36px;
+    float: left;
+}
+
+#nav div:last-child {
+    /*background-color: red;*/
+    float: right;
+}
+
+#nav div:last-child p {
+    text-align: right;
+}
+
+#nav h1 {
+    font-family: 黑体;
+    font-size: 28px;
+    margin-top: 5px;
+    margin-left: 20px;
+    float: left;
+    font-weight: bold;
+    width: 150px;
+}
+
+#nav p a {
+    color: #4D8BB8;
+    text-decoration: none;
+}
+
+#nav form p {
+    float: left;
+}
+
+.menu ul {
+    background-color: #fff;
+}
+
+.menu li {
+    display: block;
+    float: left;
+    width: 97px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.menu a {
+    color: black;
+    /*display: block;*/
+    text-decoration: none;
+    padding: 1px;
+}
+
+.menu a:hover {
+    color: white;
+    background-color: #A7A59B;
+    border: 1px #A7A59B solid;
+    border-radius: 5px;
+}

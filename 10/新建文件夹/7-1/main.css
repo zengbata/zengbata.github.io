@@ -1,0 +1,23 @@
+body {
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+	background-color: #0D3B6C;
+}
+h1 {
+	text-align: center;
+	color:#fff;
+	/*text-decoration: underline;*/
+	font-size: 32px;
+	border-bottom: 1px white solid;
+	width: 700px;
+	padding-bottom: 5px;
+	margin: 10px auto;
+	/*当盒模型的左右外边距等于auto时，这个盒模型会居中*/
+	background-color: rgba(100,0,0,0.5);
+}
+p {
+	color:#eee;
+	text-indent: 2em;
+	line-height: 1.5;
+}

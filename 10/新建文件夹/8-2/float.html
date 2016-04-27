@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>浮动</title>
+    <style>
+    body {
+        background-color: rgba(50, 0, 0, 0.2);
+        width: 90%;
+        border: 1px red solid;
+        margin: 10px auto;
+        padding: 10px;
+    }
+    
+    div {
+        text-align: center;
+    }
+    
+    #head {
+        border: 1px #000 solid;
+        width: 95%;
+        height: 100px;
+        margin: 10px auto;
+        line-height: 100px;
+        text-align: center;
+    }
+    
+    #main {
+        border: 1px #000 solid;
+        width: 95%;
+        height: 200px;
+        margin: 10px auto;
+        padding: 10px;
+        /*overflow: hidden;*/
+    }
+    
+    #left {
+        border: 1px #000 solid;
+        width: 198px;
+        height: 98px;
+        float: left;
+        line-height: 98px;
+        margin-right: 10px;
+    }
+    
+    .middle {
+        border: 1px #000 solid;
+        width: 400px;
+        height: 98px;
+        /*margin: 0 300px;*/
+        float: left;
+        margin: 5px;
+    }
+    
+    #right {
+        border: 1px #000 solid;
+        width: 193px;
+        height: 98px;
+        margin-left: 5px;
+        float: right;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="head">头部</div>
+    <div id="main">
+        <div id="right">右侧</div>
+        <div id="left">左侧</div>
+        <div class="middle">middle</div>
+        <div class="middle">middle</div>
+        <div class="middle">middle</div>
+    </div>
+</body>
+
+</html>
